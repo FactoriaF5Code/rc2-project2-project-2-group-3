@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 108px;
+  background: rgba(6, 6, 6, 0.75);
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #f0a411;
+}
+
+/* Nav */
+nav {
+  background: rgba(4, 116, 130, 0.67);
+  border-top: 2px solid #f0a411;
+  border-bottom: 2px solid #f0a411;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  height: 60px;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f0a411;
+  font-weight: bold;
+}
