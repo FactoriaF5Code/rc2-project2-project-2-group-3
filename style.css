@@ -7,17 +7,19 @@
   list-style: none;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+@font-face {
+  font-family: "Strjmono";
+  src:
+    local("Trickster"),
+    url("./fonts/Strjmono.ttf") format("ttf"); 
+}
+
 
 :root {
   --opacity-color: rgba(6, 63, 82, 0.55);
   --texto-amarillo: #ffb13a;
 }
 
-body,
-html {
-  font-family: "Droid Sans", arial, verdana, sans-serif;
-}
 
 .audio {
   right: 200px;
@@ -55,6 +57,7 @@ main {
   margin: 0 0 50px 0;
   font-size: 5rem;
   text-transform: uppercase;
+  font-family: "Strjmono";
 }
 
 .animacion p {
