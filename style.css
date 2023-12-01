@@ -258,3 +258,29 @@ footer {
 .oculto {
   display: none;
 }
+
+
+/* Estilo página local */
+
+main p.local{
+
+  padding: 100px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto; 
+  font-size: 1.5rem ;
+
+}
+
+section.imageslocal {
+
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+
+
+
+
