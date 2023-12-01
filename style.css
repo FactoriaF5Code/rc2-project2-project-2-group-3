@@ -8,13 +8,13 @@
 }
 
 @font-face {
-  font-family: 'Starjout';
-  src: url('./fonts/Starjout.ttf') format('truetype');
+  font-family: "Starjout";
+  src: url("./fonts/Starjout.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Strjmono';
-  src: url('./fonts/Strjmono.ttf') format('truetype');
+  font-family: "Strjmono";
+  src: url("./fonts/Strjmono.ttf") format("truetype");
 }
 
 :root {
@@ -26,13 +26,13 @@
 }
 
 body {
-  font-family: 'Strjmono';
+  font-family: "Strjmono";
   text-transform: lowercase;
 }
 
 h1,
 span {
-  font-family: 'Starjout';
+  font-family: "Starjout";
 }
 
 /* Header */
@@ -197,13 +197,13 @@ footer {
 
 .menu button {
   padding: 0.5em 1em;
-  font-family: 'Strjmono';
+  font-family: "Strjmono";
   font-size: 0.7rem;
 }
 
 .menu h3 {
   color: #fff;
-  font-family: 'Starjout';
+  font-family: "Starjout";
 }
 
 .menu p {
@@ -266,32 +266,23 @@ footer {
   display: none;
 }
 
-
 /* Estilo página local */
 
 .local {
-
-  
   background-color: var(--header-bgcolor);
   margin: 3rem auto;
-
-
-
 }
 
- .local p {
-
+.local p {
   padding: 20px;
   width: 70%;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 0.25rem;
-  font-size: 1rem ;
-
+  font-size: 1rem;
 }
 
 .imageslocal {
-
   display: flex;
   justify-content: center;
   width: 90%;
@@ -300,27 +291,16 @@ footer {
   overflow: hidden;
   margin-bottom: 3rem;
   text-align: center;
-
 }
 
 .imageslocal h2 {
-
   font-family: "Starjout";
-  color:var(--whitecolor);
+  color: var(--whitecolor);
   letter-spacing: 0.25rem;
   padding: 0.5rem;
-
-
 }
 
-.imageslocal img{
+.imageslocal img {
   width: 420px;
   height: 340px;
-
 }
-
-
-
-
-
-
