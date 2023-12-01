@@ -5,7 +5,7 @@ function mostrarParr() {
   if (parrOculto.className == 'oculto') {
     parrOculto.className = 'mostrado';
     parrOculto.style.display = 'block';
-    btn.innerText = 'Pulsa para ocultar menú';    
+    btn.innerText = 'Pulsa para ocultar menú';
   } else {
     parrOculto.className = 'oculto';
     btn.innerText = 'Pulsa para ver menú';
