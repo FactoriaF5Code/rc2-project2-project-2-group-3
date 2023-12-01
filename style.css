@@ -8,13 +8,13 @@
 }
 
 @font-face {
-  font-family: "Starjout";
-  src: url("./fonts/Starjout.ttf") format("truetype");
+  font-family: 'Starjout';
+  src: url('./fonts/Starjout.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Strjmono";
-  src: url("./fonts/Strjmono.ttf") format("truetype");
+  font-family: 'Strjmono';
+  src: url('./fonts/Strjmono.ttf') format('truetype');
 }
 
 :root {
@@ -26,13 +26,13 @@
 }
 
 body {
-  font-family: "Strjmono";
+  font-family: 'Strjmono';
   text-transform: lowercase;
 }
 
 h1,
 span {
-  font-family: "Starjout";
+  font-family: 'Starjout';
 }
 
 /* Header */
@@ -196,7 +196,12 @@ footer {
 
 .menu button {
   padding: 0.5em 1em;
-  font-family: "Strjmono";
+  font-family: 'Strjmono';
+}
+
+.menu h3 {
+  color: #fff;
+  font-family: 'Starjout';
 }
 
 .menu p {
